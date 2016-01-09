@@ -1,0 +1,103 @@
+body {
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   background-image: url("../img/Bike-Background.png");
+   height: 550px;
+}
+
+header nav ul li a { color: #c1cbc9; }
+
+#content {
+   width: 80%;
+   margin: 0 auto;
+}
+
+/* -- Contact Us */
+/* ------------- */
+
+.order-now {
+   background-color: rgba(179, 172, 164, 0.5);
+}
+
+#book {
+   width: 80%;
+   float: left;
+   font-family: 'Open Sans', Arial;
+}
+
+.checkbox {
+   font-weight: 300;
+}
+
+.yes-no {
+   font-weight: 300;
+}
+
+#book input[type="text"] {
+   padding: 10px;
+   width: 300px;
+   font-weight: 15pt;
+   outline: 0;
+}
+
+#book button {
+   margin-top: 35px;
+   margin-bottom: 25px;
+   width: 150px;
+   height: 35px;
+   display: block;
+   background-color: #333333;
+   border: none;
+   color: white;
+   border-radius: 5px;
+   font-size: 11pt;
+   transition: background-color, 0.5s, ease;
+   -webkit-transition: background-color, 0.5s, ease;
+   -moz-transition: background-color, 0.5s, ease;
+   -ms-transition: background-color, 0.5, ease;
+}
+
+#book button:hover {
+   background-color: black;
+   cursor: pointer;
+}
+
+#book textarea {
+   width: 85%;
+   outline: 0;
+   font-size: 12pt;
+   border: 0.1em solid #bfbfbf;
+}
+
+#contact {
+   margin-top: 30px;
+   float: right;
+   width: 20%;
+}
+
+#contact h3, #contact a {
+   text-align: center;
+   font-family: 'Open Sans', sans-serif;
+}
+
+#contact a {
+   display: block;
+   text-decoration: none;
+   font-weight: 600;
+}
+
+#contact a:link {
+   color: black;
+}
+
+#contact a:active {
+   color: gray;
+}
+
+.highlight {
+   color: #789fb6;
+   font-size: 10pt;
+}

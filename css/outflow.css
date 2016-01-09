@@ -1,0 +1,10 @@
+header {
+   background: -webkit-linear-gradient(#32adff, #1ca2fc); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(#32adff, #1ca2fc); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(#32adff, #1ca2fc); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(#32adff, #1ca2fc); /* Standard syntax */
+}
+
+.btn-back {
+   color: #466ffa;
+}

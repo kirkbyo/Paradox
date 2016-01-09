@@ -1,0 +1,245 @@
+body {
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   background-image: url("../img/Space-Night.png");
+   height: 550px;
+}
+
+#content {
+   width: 80%;
+   margin: 0 auto;
+}
+
+#intro-text {
+   font-size: 14pt;
+   width: 60%;
+   text-align: center;
+   margin: 0 auto;
+   font-family: 'Quattrocento', serif;
+   font-size: 19pt;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+/** Services **/
+#services ul {
+   width: 100%;
+   display: block;
+   list-style: none;
+   margin: 0 auto;
+}
+
+#services ul li {
+   display: inline-block;
+   width: 32.99%;
+   text-align: center;
+   float: left;
+}
+
+#services ul li img {
+   height: 60px;
+}
+
+#services ul li h4 {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+   font-size: 13pt;
+   line-height: 10px;
+}
+
+#services ul li p {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 300;
+   font-size: 12pt;
+   width: 90%;
+}
+
+#services a {
+   font-family: 'Open Sans', sans-serif;
+}
+
+#services div {
+   display: block;
+   margin: 0 auto;
+   text-align: center;
+   padding-top: 100px;
+}
+
+/** Our Work **/
+.work-box {
+   height: 400px;
+   width: 100%;
+   margin-bottom: 100px;
+}
+
+.work-box div {
+   width: 49.99%;
+   height: 100%;
+   display: inline-block;
+   float: left;
+   position: relative;
+}
+
+.work-box-content {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -webkit-transform: translate(-50%, -50%);
+   text-align: center;
+}
+
+.work-box-content h4, .work-box-content p {
+   color: white;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.work-box-content h4 {
+   font-size: 15pt;
+   line-height: 0;
+}
+
+.work-box-content p {
+   line-height: 0;
+   font-size: 13pt;
+   font-weight: 300;
+}
+.work-box-description h4 {
+   line-height: 0;
+}
+
+.work-box-description h4, .work-box-description p, .work-box-description a {
+   margin-left: 40px;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.work-box-description p {
+   font-weight: 300;
+   font-size: 12pt;
+}
+
+.work-box-description p:last-of-type  {
+   margin-bottom: 60px;
+}
+
+/* -- Styling for Apps */
+/* ------------------- */
+
+#work-outflow div:nth-child(1) {
+   background: -webkit-linear-gradient(#32adff, #1ca2fc); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(#32adff, #1ca2fc); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(#32adff, #1ca2fc); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(#32adff, #1ca2fc); /* Standard syntax */
+}
+
+#work-alpha div:nth-child(2) {
+   background: -webkit-linear-gradient(#7f95a7, #934563); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(#7f95a7, #934563); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(#7f95a7, #934563); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(#7f95a7, #934563); /* Standard syntax */
+}
+
+#work-alpha div:nth-child(1) p, #work-alpha div:nth-child(1) h4, #work-alpha div:nth-child(1) a {
+   margin-left: 0;
+   margin-right: 40px;
+}
+
+#work-alpha div:nth-child(2) img {
+   width: 75px;
+   border-radius: 25%;
+}
+
+#work-alpha div:nth-child(2) p {
+   line-height: 1.2em;
+}
+
+/* -- Contact Us */
+/* ------------- */
+
+.order-now {
+   background-color: rgba(179, 172, 164, 0.5);
+}
+
+#book {
+   width: 80%;
+   font-family: 'Open Sans', Arial;
+}
+
+.checkbox {
+   font-weight: 300;
+}
+
+.yes-no {
+   font-weight: 300;
+}
+
+#book input[type="text"] {
+   padding: 10px;
+   width: 300px;
+   font-weight: 15pt;
+   outline: 0;
+}
+
+#book button {
+   margin-top: 35px;
+   margin-bottom: 25px;
+   width: 150px;
+   height: 30px;
+   display: block;
+   background-color: #644514;
+   border: none;
+   color: white;
+   border-radius: 5px;
+   font-size: 11pt;
+}
+
+#book textarea {
+   width: 50%;
+   outline: 0;
+}
+
+#process {
+   width: 100%;
+}
+
+#process img {
+   width: 90%;
+}
+
+#process div p {
+   font-size: 13pt;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 300;
+   margin-bottom: 40px;
+}
+
+#journal {
+   margin-top: 50px;
+   margin-bottom: 50px;
+   width: 100%;
+   display: inline-block;
+}
+
+#journal img {
+   width: 100%;
+}
+
+#journal article {
+   margin-left: 30px;
+}
+
+#journal article h1 {
+   line-height: 0;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 14pt;
+   font-weight: 600;
+}
+
+#journal article p {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 300;
+   padding-bottom: 10px;
+}

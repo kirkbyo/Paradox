@@ -1,0 +1,87 @@
+/*
+General Classes
+- Multi use classe that will be used through out the entire site inorder to ensure some type of consistency
+*/
+
+/*------
+  Grid
+-----*/
+.col15 {
+   display: inline-block;
+   width: 15%;
+   float: left;
+}
+
+.col50 {
+   display: inline-block;
+   width: 50%;
+   float: left;
+}
+
+.col25 {
+   display: inline-block;
+   width: 25%;
+   float: left;
+}
+
+.col85 {
+   display: inline-block;
+   width: 85%;
+   float: left;
+}
+
+.col75 {
+   display: inline-block;
+   width: 75%;
+   float: left;
+}
+
+/*------
+  Buttons and Such
+-----*/
+.active-page {
+   background-color: white;
+   color: #282828;
+   font-weight: 400;
+   border-radius: 5px;
+   padding: 5px 10px;
+}
+
+.active-page:active {
+   color: #282828;
+}
+
+.btn-more-info {
+   border: 2px dashed #315052;
+   font-family: 'Open Sans', serif;
+   color: #315052;
+   text-decoration: none;
+   padding: 10px 20px;
+   font-size: 11pt;
+   text-transform: uppercase;
+}
+
+.btn-back {
+   display: inline-block;
+   text-align: center;
+   background-color: white;
+   font-family: 'Open Sans', sans-serif;
+   text-decoration: none;
+   border-radius: 5px;
+   color: black;
+   line-height: 30px;
+   height: 30px;
+   width: 80px;
+   font-size: 11pt;
+   text-transform: uppercase;
+}
+
+.divider {
+   text-transform: uppercase;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.alpha-link {
+   text-decoration: none;
+   color: #ca3644;
+}

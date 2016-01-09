@@ -1,0 +1,105 @@
+body, html {
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   background-image: url("../img/Team-Meeting.png");
+   height: 450px;
+   background-position: top-center;
+}
+
+header nav ul li {
+   color: #dcc8b0;
+}
+
+#content {
+   width: 80%;
+   margin: 0 auto;
+}
+
+#header-title {
+   top: 28%;
+   left: 50%;
+   transform: translate(-50%, -28%);
+   -webkit-transform: translate(-50%, -28%);
+}
+
+#quote {
+   width: 70%;
+   text-align: center;
+   margin: 0 auto;
+   font-family: 'Quattrocento', serif;
+   font-family: 14pt;
+   margin-top: 100px;
+   margin-bottom: 50px;
+}
+
+#quote em {
+   font-size: 13pt;
+}
+
+#about p {
+   font-family: 'Open Sans', serif;
+   font-weight: 300;
+   font-size: 15pt;
+}
+
+#about p a {
+   text-decoration: none;
+   color: #466ffa;
+   transition: color, 0.5s, ease;
+   -webkit-transition: color, 0.5s, ease;
+   -moz-transition: color, 0.5s, ease;
+   -ms-transition: color, 0.5, ease;
+}
+
+#about p a:hover {
+   color: red;
+}
+
+#about p a:visited {
+   color: #1ea48d;
+}
+
+#team {
+   margin-top: 90px;
+   margin-bottom: 80px;
+   width: 100%;
+   border-collapse: collapse;
+}
+
+#team img {
+   height: 150px;
+   display: block;
+   margin: 0 auto;
+}
+
+#team th {
+   text-align: left;
+   font-family: 'Open Sans', serif;
+   font-weight: 600;
+}
+
+#team td {
+   text-align: center;
+   font-family: 'Open Sans', serif;
+   font-weight: 300;
+}
+
+.team-info {
+    border-bottom: 1px dashed black;
+}
+
+.team-info td {
+   border-left: 1px dashed black;
+   border-right: 1px dashed black;
+}
+
+#table-name {
+   font-size: 15pt;
+}
+
+td, th {
+   padding: 10px 20px;
+}

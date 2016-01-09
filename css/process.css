@@ -1,0 +1,87 @@
+body, html {
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   background-image: url("../img/Whiteboard-design.png");
+   height: 450px;
+   background-position: top-center;
+}
+
+header nav ul li a {
+   color: #737274;
+}
+
+#header-title {
+   top: 30%;
+   left: 50%;
+   transform: translate(-50%, -30%);
+   -webkit-transform: translate(-50%, -30%);
+}
+
+#content {
+   width: 85%;
+   display: block;
+   margin: 0 auto;
+   max-width: 1300px;
+}
+
+#intro {
+   margin-top: 80px;
+   width: 100%;
+   height: 400px;
+}
+
+#intro img {
+   width: 90%;
+   max-width: 485px;
+   float: right;
+   margin-right: 60px;
+}
+
+#intro div:nth-child(2) {
+   /* Centers text vertically to image */
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   height: 80%;
+   font-size: 13pt;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 300;
+}
+
+.custom-process-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-top: 50px;
+}
+
+.custom-process-list li {
+  counter-increment: step-counter;
+  margin-bottom: 20px;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.custom-process-list li p {
+   display: inline-block;
+   width: 80%;
+   vertical-align: middle;
+   margin-left: 80px;
+}
+
+/* Custom Styling to the numbers on the ordered list */
+.custom-process-list li::before {
+  content: counter(step-counter);
+  margin-right: 15px;
+  font-size: 13pt;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #223239;
+  color: white;
+  font-weight: bold;
+  padding: 15px 20px;
+  border-radius: 5px;
+}

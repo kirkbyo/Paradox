@@ -1,0 +1,18 @@
+header {
+   background: -webkit-linear-gradient(#ad8e96, #934563); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(#ad8e96, #934563); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(#ad8e96, #934563); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(#ad8e96, #934563); /* Standard syntax */
+}
+
+header img {
+   border-radius: 30px;
+}
+
+.btn-back {
+   color: #934563;
+}
+
+#about img {
+   width: 100%;
+}

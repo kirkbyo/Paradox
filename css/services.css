@@ -1,0 +1,83 @@
+body, html {
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   background-image: url("../img/Computer-Background.png");
+   height: 450px;
+   background-position: top-center;
+}
+
+header nav ul li {
+   color: #dcc8b0;
+}
+
+#header-title {
+   top: 28%;
+   left: 50%;
+   transform: translate(-50%, -28%);
+   -webkit-transform: translate(-50%, -28%);
+}
+
+#content {
+   width: 85%;
+   display: block;
+   margin: 0 auto;
+   max-width: 1300px;
+}
+
+#intro {
+   margin-top: 80px;
+   width: 100%;
+   height: 400px;
+}
+
+#intro img {
+   width: 90%;
+   max-width: 485px;
+   float: right;
+   margin-right: 60px;
+}
+
+#intro div:nth-child(2) {
+   /* Centers text vertically to image */
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   height: 80%;
+   font-size: 13pt;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 300;
+}
+
+#services {
+   display: block;
+   width: 100%;
+   margin: 0 auto;
+}
+
+#services div {
+   margin-top: 30px;
+}
+
+#services div:nth-child(1) {
+   margin-top: 10px;
+}
+
+.service img {
+   height: 50px;
+   display: block;
+   margin: 0 auto;
+   margin-top: 70px;
+}
+
+.service h3 {
+   font-weight: 400;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.service p {
+   font-weight: 300;
+   font-family: 'Open Sans', sans-serif;
+}
